@@ -1,0 +1,8 @@
+[My Computer]
+My Computer = "127.0.0.1"
+
+[Raspberry Pi]
+Raspberry Pi = "10.12.34.201"
+
+[Target]
+Target = "172.22.11.2"

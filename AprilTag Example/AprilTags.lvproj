@@ -54,6 +54,7 @@
 		</Item>
 		<Item Name="360 Angle Calc.vi" Type="VI" URL="../360 Angle Calc.vi"/>
 		<Item Name="AprilTag Desktop.vi" Type="VI" URL="../AprilTag Desktop.vi"/>
+		<Item Name="AprilTag Slice Testing.vi" Type="VI" URL="../AprilTag Slice Testing.vi"/>
 		<Item Name="Build Combos.vi" Type="VI" URL="../Build Combos.vi"/>
 		<Item Name="Camera Pixel to Angle.vi" Type="VI" URL="../../Simulation/Camera Pixel to Angle.vi"/>
 		<Item Name="Compute Tag Angles.vi" Type="VI" URL="../../Simulation/Compute Tag Angles.vi"/>

@@ -1,8 +1,8 @@
 [My Computer]
-My Computer = "192.168.4.20"
+My Computer = "10.13.57.20"
 
 [Raspberry Pi]
-Raspberry Pi = "192.168.5.78"
+Raspberry Pi = "10.13.57.202"
 
 [Target]
 Target = "172.22.11.2"

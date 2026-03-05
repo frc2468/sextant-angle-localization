@@ -53,7 +53,6 @@
 			<Item Name="View Points.vi" Type="VI" URL="../View Points.vi"/>
 		</Item>
 		<Item Name="360 Angle Calc.vi" Type="VI" URL="../360 Angle Calc.vi"/>
-		<Item Name="AprilTag Desktop.vi" Type="VI" URL="../AprilTag Desktop.vi"/>
 		<Item Name="AprilTag Slice Testing.vi" Type="VI" URL="../AprilTag Slice Testing.vi"/>
 		<Item Name="Build Combos.vi" Type="VI" URL="../Build Combos.vi"/>
 		<Item Name="Camera Pixel to Angle.vi" Type="VI" URL="../../Simulation/Camera Pixel to Angle.vi"/>
@@ -136,7 +135,7 @@
 	</Item>
 	<Item Name="Raspberry Pi" Type="Raspberry Pi">
 		<Property Name="alias.name" Type="Str">Raspberry Pi</Property>
-		<Property Name="alias.value" Type="Str">10.13.57.202</Property>
+		<Property Name="alias.value" Type="Str">10.24.68.21</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;LINX_DEVICE,True;LINX_DEVICE_FAMILY,4;LINX_DEVICE_ID,3;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -211,8 +210,55 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="AprilTag Desktop.vi" Type="VI" URL="../AprilTag Desktop.vi"/>
+		<Item Name="ARGB Image Global.vi" Type="VI" URL="../../ARGB Image Global.vi"/>
 		<Item Name="Untitled 3.vi" Type="VI" URL="../../Visualizer/Untitled 3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="My Real-Time Application" Type="{117D6E82-86E4-4435-99C8-B638EE47B29E}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{3E24F586-53BF-4B06-A027-69371A9562C8}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{684A890E-F5C0-4FD3-B0F3-E2B74138ABCB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9ECD37A1-D08D-4631-9533-12AF94A6A905}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Real-Time Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{16C18B29-FD76-4F37-8994-C91343404D48}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Vision.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/Vision.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{526956D5-B313-40B1-A9F1-4D6C8FDD6E88}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Raspberry Pi/AprilTag Desktop.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Westlake High School</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 Westlake High School</Property>
+				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{69CF729F-7C0D-4F1A-AF1C-660C63B2EF61}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Vision.rtexe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
